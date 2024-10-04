@@ -1,0 +1,51 @@
+[
+  {
+    "onderwerp": "",
+    "doelgroep": "",
+    "leeropbrengst": "",
+    "ai_feedback": "",
+    "lesstructuur": {
+      "instructie": [
+        {
+          "uuid": "",
+          "#type": "processed_text",
+          "#title": "",
+          "#text": "",
+          "#format": "webform_html"
+        },
+        {
+          "uuid": "",
+          "#type": "document_file",
+          "#title": "",
+          "#elo_max_score": null
+        },
+        {
+          "uuid": "",
+          "#type": "radios",
+          "#title": "",
+          "#elo_answer_direction": "",
+          "#elo_max_score": null,
+          "#options": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          }
+        },
+        {
+          "uuid": "",
+          "#type": "textarea",
+          "#title": "",
+          "#elo_answer_direction": "",
+          "#elo_max_score": null
+        }
+      ],
+      "verwerking": [
+      ],
+      "afronding": [
+      ],
+      "introductie": [
+      ]
+    }
+  }
+]

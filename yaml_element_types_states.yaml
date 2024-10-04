@@ -1,0 +1,61 @@
+# element types and states
+
+# "text" state
+{unique_key}:
+  '#type': processed_text
+  '#title': (keywords_content)
+  '#text': |
+    (content, like text and weblinks and lists)
+  '#format': webform_html
+
+# "large image" state
+{unique_key}:
+  '#type': processed_text
+  '#title': (keywords_content)
+  '#text': |
+    drupal-media data-align="center" data-entity-type="media" data-entity-uuid="{unique_image_id}" data-view-mode="small_width_no_caption"></drupal-media>
+  '#format': webform_html
+
+# "text and small image" state
+{unique_key}:
+  '#type': processed_text
+  '#title': (keywords_content)
+  '#text': |
+    <table>
+    	<tbody>
+    		<tr>
+    			<td>
+    			<drupal-media data-align="center" data-entity-type="media" data-entity-uuid="{unique_image_id}" data-view-mode="large_width_no_caption"></drupal-media>
+    			</td>
+    			<td>(text here)</td>
+    		</tr>
+    	</tbody>
+    </table>
+  '#format': webform_html
+
+#type': document_file
+{unique_key}:
+  '#type': document_file
+  '#title': (instruction_file_upload)
+  '#elo_max_score': (value 0-10)
+
+#type': radios
+{unique_key}:
+  '#type': radios
+  '#title': {question_radios}
+  '#elo_answer_direction': |
+    <p>(number_right_answer)</p>
+  '#elo_max_score': (value 0-10)
+  '#options':
+    1: '(value 1)'
+    2: '(value 2)'
+    3: '(value 3)'
+    4: '(value 4)'
+
+#type': textarea
+{unique_key}:
+  '#type': textarea
+  '#title': {question_textarea}
+  '#elo_answer_direction': |
+    <p>(right_answer)</p>
+  '#elo_max_score': (value 0-10)
