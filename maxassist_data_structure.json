@@ -1,51 +1,71 @@
 [
   {
-    "onderwerp": "",
-    "doelgroep": "",
-    "leeropbrengst": "",
-    "ai_feedback": "",
-    "lesstructuur": {
-      "instructie": [
-        {
-          "uuid": "",
-          "#type": "processed_text",
-          "#title": "",
-          "#text": "",
-          "#format": "webform_html"
-        },
-        {
-          "uuid": "",
-          "#type": "document_file",
-          "#title": "",
-          "#elo_max_score": null
-        },
-        {
-          "uuid": "",
-          "#type": "radios",
-          "#title": "",
-          "#elo_answer_direction": "",
-          "#elo_max_score": null,
-          "#options": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+    "lesson_prerequisites": [
+      {
+        "question_key": "q1",
+        "question_text": "",
+        "answer": ""
+      }
+    ],
+    "lesson_structure": {
+      "instruction": {
+        "content": [
+          {
+            "processed_text": {
+              "uuid": "",
+              "#type": "processed_text",
+              "#title": "",
+              "#text": "",
+              "#format": "webform_html"
+            }
+          },
+          {
+            "document_file": {
+              "uuid": "",
+              "#type": "document_file",
+              "#title": ""
+            }
+          },
+          {
+            "multiple_choice_question": {
+              "uuid": "",
+              "#type": "radios",
+              "#title": "",
+              "#elo_answer_direction": "",
+              "#options": {
+                "1": "",
+                "2": "",
+                "3": "",
+                "4": ""
+              }
+            }
+          },
+          {
+            "open_question": {
+              "uuid": "",
+              "#type": "textarea",
+              "#title": "",
+              "#elo_answer_direction": ""
+            }
           }
-        },
-        {
-          "uuid": "",
-          "#type": "textarea",
-          "#title": "",
-          "#elo_answer_direction": "",
-          "#elo_max_score": null
-        }
-      ],
-      "verwerking": [
-      ],
-      "afronding": [
-      ],
-      "introductie": [
-      ]
+        ]
+      },
+      "processing": {
+        "initial_questions": [
+          {
+            "question_key": "v1",
+            "question_text": "",
+            "answer": ""
+          }
+        ],
+        "content": []
+      },
+      "conclusion": {
+        "content": []
+      },
+      "introduction": {
+        "content": []
+      }
     }
   }
 ]
