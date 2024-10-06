@@ -103,3 +103,27 @@ Elk object in deze JSON-structuur kan worden geconverteerd naar een overeenkomst
 - Open Vraag (textarea)
 
 De YAML-representatie biedt een alternatief formaat voor de lesstructuur, wat nuttig kan zijn voor bepaalde integraties of verwerkingstaken.
+
+## AI-rol in de lesstructuur
+
+De AI speelt een belangrijke rol in verschillende fasen van de lesstructuur:
+
+1. **Feedback op voorbereidende vragen**: 
+   - `ai_feedback_prompt`: Deze prompt stuurt de AI bij het geven van feedback op de antwoorden op de voorbereidende vragen.
+
+2. **Instructiefase**:
+   - `ai_instruction_prompt`: Deze prompt wordt gebruikt om de AI te sturen bij het genereren van instructies voor de les.
+
+3. **Verwerkte tekst**:
+   - `ai_question_prompt`: Deze prompt helpt de AI bij het genereren van vragen op basis van de inhoud van een verwerkte tekst.
+
+4. **Verwerkingsfase**:
+   - `ai_assignment_prompt`: Deze prompt stuurt de AI bij het creëren van een opdracht voor de verwerkingsfase, rekening houdend met de antwoorden op de initiële vragen.
+
+5. **Conclusiefase**:
+   - `ai_conclusion_prompt`: Deze prompt helpt de AI bij het genereren van een passende conclusie voor de les.
+
+6. **Introductiefase**:
+   - `ai_introduction_prompt`: Deze prompt stuurt de AI bij het creëren van een effectieve introductie voor de les.
+
+Deze AI-prompts stellen het systeem in staat om dynamisch lesinhoud te genereren en aan te passen op basis van specifieke behoeften en context van elke les.

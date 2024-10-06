@@ -7,8 +7,10 @@
         "answer": ""
       }
     ],
+    "ai_feedback_prompt": "",
     "lesson_structure": {
       "instruction": {
+        "ai_instruction_prompt": "",
         "content": [
           {
             "processed_text": {
@@ -16,7 +18,8 @@
               "#type": "processed_text",
               "#title": "",
               "#text": "",
-              "#format": "webform_html"
+              "#format": "webform_html",
+              "ai_question_prompt": ""
             }
           },
           {
@@ -58,12 +61,15 @@
             "answer": ""
           }
         ],
+        "ai_assignment_prompt": "",
         "content": []
       },
       "conclusion": {
+        "ai_conclusion_prompt": "",
         "content": []
       },
       "introduction": {
+        "ai_introduction_prompt": "",
         "content": []
       }
     }

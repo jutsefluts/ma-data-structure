@@ -110,3 +110,27 @@ Each object in this JSON structure can be converted to a corresponding YAML form
 - Open Question (textarea)
 
 The YAML representation provides an alternative format for the lesson structure, which may be useful for certain integrations or processing tasks.
+
+## AI Role in the Lesson Structure
+
+AI plays a crucial role in various phases of the lesson structure:
+
+1. **Feedback on prerequisite questions**: 
+   - `ai_feedback_prompt`: This prompt guides the AI in providing feedback on the answers to the prerequisite questions.
+
+2. **Instruction phase**:
+   - `ai_instruction_prompt`: This prompt is used to guide the AI in generating instructions for the lesson.
+
+3. **Processed text**:
+   - `ai_question_prompt`: This prompt helps the AI generate questions based on the content of a processed text.
+
+4. **Processing phase**:
+   - `ai_assignment_prompt`: This prompt guides the AI in creating an assignment for the processing phase, taking into account the answers to the initial questions.
+
+5. **Conclusion phase**:
+   - `ai_conclusion_prompt`: This prompt helps the AI generate an appropriate conclusion for the lesson.
+
+6. **Introduction phase**:
+   - `ai_introduction_prompt`: This prompt guides the AI in creating an effective introduction for the lesson.
+
+These AI prompts enable the system to dynamically generate and adapt lesson content based on the specific needs and context of each lesson.
