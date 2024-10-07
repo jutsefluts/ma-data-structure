@@ -19,7 +19,22 @@
               "#title": "",
               "#text": "",
               "#format": "webform_html",
-              "ai_question_prompt": ""
+              "ai_question_prompt": "",
+              "state": {
+                "type": ""
+              },
+              "media_elements": [
+                {
+                  "type": "",
+                  "uuid": ""
+                }
+              ],
+              "external_links": [
+                {
+                  "url": "",
+                  "title": ""
+                }
+              ]
             }
           },
           {
