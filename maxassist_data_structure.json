@@ -20,7 +20,7 @@
               "#text": "",
               "#format": "webform_html",
               "ai_question_prompt": "",
-              "state": {
+              "layout": {
                 "type": ""
               },
               "media_elements": [

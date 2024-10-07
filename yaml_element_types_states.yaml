@@ -1,6 +1,6 @@
 # element types and states
 
-# "text" state
+# "text" "layout"
 {unique_key}:
   '#type': processed_text
   '#title': (keywords_content)
@@ -8,7 +8,7 @@
     (content, like text and weblinks and lists)
   '#format': webform_html
 
-# "large image" state
+# "large image" "layout"
 {unique_key}:
   '#type': processed_text
   '#title': (keywords_content)
@@ -16,7 +16,7 @@
     drupal-media data-align="center" data-entity-type="media" data-entity-uuid="{unique_image_id}" data-view-mode="small_width_no_caption"></drupal-media>
   '#format': webform_html
 
-# "text and small image" state
+# "text and small image" "layout"
 {unique_key}:
   '#type': processed_text
   '#title': (keywords_content)
