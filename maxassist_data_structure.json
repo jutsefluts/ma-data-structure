@@ -7,7 +7,7 @@
         "answer": ""
       }
     ],
-    "ai_feedback_prompt": "",
+    "ai_feedback_prerequisites_prompt": "",
     "lesson_structure": {
       "instruction": {
         "ai_instruction_prompt": "",
@@ -51,7 +51,8 @@
               "#elo_answer_direction": ""
             }
           }
-        ]
+        ],
+        "ai_feedback_instruction_prompt": ""
       },
       "processing": {
         "initial_questions": [
@@ -62,15 +63,18 @@
           }
         ],
         "ai_assignment_prompt": "",
-        "content": []
+        "content": [],
+        "ai_feedback_assignment_prompt": ""
       },
       "conclusion": {
         "ai_conclusion_prompt": "",
-        "content": []
+        "content": [],
+        "ai_feedback_conclusion_prompt": ""
       },
       "introduction": {
         "ai_introduction_prompt": "",
-        "content": []
+        "content": [],
+        "ai_feedback_introduction_prompt": ""
       }
     }
   }
