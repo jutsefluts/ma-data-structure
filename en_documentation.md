@@ -58,7 +58,7 @@ The "uuid": "" field contains a unique identifier for each object, ensuring uniq
 6. YAML Conversion
 
 JSON objects can be converted to YAML format. Refer to yaml_element_types_states.yaml for specific structures of:
-- Processed Text (various states)
+- Processed Text (various layouts)
 - Document File
 - Multiple Choice Question (radios)
 - Open Question (textarea)
